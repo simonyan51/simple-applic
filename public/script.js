@@ -8,7 +8,7 @@
 
 	loginBtn.addEventListener('click', function() {
 		var req = new XMLHttpRequest();
-		req.open('POST', 'https://simple-applic.herokuapp.com`/login', true);
+		req.open('POST', 'https://simple-applic.herokuapp.com/login', true);
 		req.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 
 		req.onreadystatechange = function() {
