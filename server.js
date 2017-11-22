@@ -20,7 +20,7 @@ class Server {
 		this.app.use(this.express.static(__dirname + '/public'));
 		// this.initDb();
 		this.initRouter(this.app);
-		let port = process.env.PORT || 4200;
+		let port = process.env.PORT || 8080;
 		this.app.listen(port);
 	}
 
