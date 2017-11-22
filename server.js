@@ -31,8 +31,8 @@ class Server {
 	    this.transporter = this.mail.createTransport({
 		service: 'gmail',
 		auth: {
-			user: 'asd@gmail.com',
-			pass: 'asdasd'
+			user: 'snoopshakur1998@gmail.com',
+			pass: 'gnel1998'
 		}
 	     });
 	}
